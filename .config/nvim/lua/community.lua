@@ -7,7 +7,7 @@ return {
   "AstroNvim/astrocommunity",
   -- Theme
   { import = "astrocommunity.colorscheme.lackluster-nvim" },
-  
+
   -- Packs
   { import = "astrocommunity.pack.lua" },
   { import = "astrocommunity.pack.docker" },
@@ -16,6 +16,7 @@ return {
   { import = "astrocommunity.pack.markdown" },
   { import = "astrocommunity.pack.mdx" },
   { import = "astrocommunity.pack.prisma" },
+  { import = "astrocommunity.pack.python" },
   { import = "astrocommunity.pack.sql" },
   { import = "astrocommunity.pack.tailwindcss" },
   { import = "astrocommunity.pack.typescript-all-in-one" },
