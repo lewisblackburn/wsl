@@ -6,7 +6,7 @@
 return {
   "AstroNvim/astrocommunity",
   -- Theme
-  { import = "astrocommunity.colorscheme.lackluster-nvim" },
+  { import = "astrocommunity.colorscheme.github-nvim-theme" },
 
   -- Packs
   { import = "astrocommunity.pack.lua" },
@@ -25,7 +25,4 @@ return {
 
   -- Motion
   { import = "astrocommunity.motion.nvim-surround" },
-
-  -- Color
-  { import = "astrocommunity.color.transparent-nvim" },
 }

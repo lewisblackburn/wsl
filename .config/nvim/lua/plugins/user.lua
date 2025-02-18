@@ -32,7 +32,7 @@ return {
     }
     opts.max_height = function() return math.floor(vim.o.lines * 0.75) end
     opts.max_width = function() return math.floor(vim.o.columns * 0.75) end
-    opts.background_colour = "#1c1c1c"
+    -- opts.background_colour = "#1c1c1c" -- Add your desired background color here
     opts.on_open = function(win)
       local astrocore = require "astrocore"
       vim.api.nvim_win_set_config(win, { zindex = 175 })
