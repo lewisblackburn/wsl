@@ -10,6 +10,7 @@ return {
 
   -- Packs
   { import = "astrocommunity.pack.lua" },
+  { import = "astrocommunity.pack.php" },
   { import = "astrocommunity.pack.docker" },
   { import = "astrocommunity.pack.html-css" },
   { import = "astrocommunity.pack.json" },
